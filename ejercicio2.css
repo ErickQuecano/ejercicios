@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #bbdff7;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.gradient-button {
+    padding: 20px 40px;
+    font-size: 26px;
+    color: white;
+    background: linear-gradient(45deg, rgb(130, 32, 241), rgb(189, 30, 123));
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, red, yellow);
+}
